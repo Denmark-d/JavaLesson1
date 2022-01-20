@@ -3,9 +3,10 @@ package ru.Denmark;
 public class Laptop {
     String name;
     int model;
+    int quantity;
 
-    void discription (){
-        System.out.println( "ноутбук" +name+","+"серия"+model);
+    void printDiscription (){
+        System.out.println( "ноутбук" +name+","+"серия"+model+","+"количество"+quantity);
     }
 
 
@@ -13,7 +14,8 @@ public class Laptop {
         Laptop laptop = new Laptop ();
         laptop.model = 65444;
         laptop.name = "Lenova";
-        laptop.discription();
+        laptop.quantity = 10+2;
+        laptop.printDiscription();
 
         //System.out.println("ноутбук" + laptop.name +","+"серия" + laptop.model);
     }

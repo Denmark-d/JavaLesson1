@@ -4,6 +4,8 @@ public class Dog {
     String name;
     String breed;
     String title;
+    int quantity2;
+
 void printOnDisplay() {
    // System.out.println("собака"+name+"порода"+breed+"титул"+title);
     System.out.println("Dogs");
